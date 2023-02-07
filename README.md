@@ -4,12 +4,12 @@ A Software engineer based in Berlin.
 
 ## Summary
 
-- I’m proficient in Go, JavaScript/Node.js  and Python, but also have some experience using C and C++.
+- I’m proficient in Go, JavaScript/Node.js  and Python, but also have experience using C and C++.
 - I have experience with computer networks, distributed systems, Rest APIs and GraphQL APIs.
 - I’ve used SQL and NOSQL databases, but most of my experience is with PostgreSQL.
 - I use Terraform and Kubernetes on a daily basis.
 - I’m used to work with agile methodologies like Scrum, Kanban and XP.
-- I have some experience leading and mentoring people and great communication skills.
+- I have experience leading and mentoring people and great communication skills.
 
 ## Work Experience
 
