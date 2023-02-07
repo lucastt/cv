@@ -1,6 +1,8 @@
 # Lucas Thiesen
+---
 
 ## Summary
+---
 
 - I’m proficient in Go, JavaScript/Node.js  and Python, but also have experience using C and C++.
 - I have experience with computer networks, distributed systems, Rest APIs and GraphQL APIs.
@@ -10,6 +12,7 @@
 - I have experience leading and mentoring people and great communication skills.
 
 ## Engineering Experience
+---
 
 [Zalando](https://zalando.de/) <br>
 ---
@@ -83,6 +86,7 @@ Software outsourcing company based in Brazil with focus on inovation projects. <
 <br><br>
 
 ## Aditional Experience
+---
 
 - **Mentor** _(2021)_: At 3778 I’m responsible for the onboarding of all Platform’s new members and mentoring to some
 of its junior engineers;
@@ -91,6 +95,7 @@ at CERTI Foundation;
 - **Protocol developer** _(2019)_: I developed MQTT and PPP implementations in college, which gave me a background on network protocol design. <br><br>
 
 ## Languages
+---
 
 🇧🇷 **Portuguese**: Native <br>
 🇺🇸 **English**: Fluent <br>
@@ -99,6 +104,7 @@ at CERTI Foundation;
 🇩🇪 **German**: A1 <br>
 
 ## Education
+---
 
 **Bachelor of Science** in Telecommunication Engineering (unfinished)<br>
 [IFSC](https://www.ifsc.edu.br/) - Sao Jose, Santa Catarina, Brazil _(2014 - 2019)_ <br>
