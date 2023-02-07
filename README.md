@@ -90,7 +90,7 @@ Software outsourcing company based in Brazil with focus on inovation projects. <
 of its junior engineers;
 - **Scrum master** _(2019)_: I was responsible for the agile development process of some teams, using Scrum and Kanban
 at CERTI Foundation;
-- **Protocol developer** _(2019)_: I developed MQTT and PPP implementations in college, which gave me a background on network protocol design.
+- **Protocol developer** _(2019)_: I developed MQTT and PPP implementations in college, which gave me a background on network protocol design. <br>
 
 ## Languages
 
