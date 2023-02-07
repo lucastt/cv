@@ -34,7 +34,7 @@ Online retail platform that sells fashion and beauty products. <br><br>
 [Quinto Andar](https://www.quintoandar.com.br/) <br>
 ---
 Online real estate platform where users are able to rent or buy completely online, the contract is also signed online and the company provide safety means and compensation in case of schemes. <br><br>
-**Site Reliability Engineer** @ [Quinto Andar](https://www.quintoandar.com.br/) _(Dec 2021 - Present)_ <br>
+**Site Reliability Engineer** @ [Quinto Andar](https://www.quintoandar.com.br/) _(May 2021 - Oct 2021)_ <br>
   - Development of a distributed and decoupled solution for authorization and authentication to all back office applications of the company, using Open Policy Agent (OPA), Kubernetes instrumentation, and Kong proxy;
   - Development of different fluent bit log pipelines to keep access logs of all APIs of the company, also the development of a system to keep a record of old logs for the data access auditing process;
   - Maintenance of a service mesh inside QuintoAndar’s six clusters using Istio 1.4;
@@ -45,7 +45,7 @@ Online real estate platform where users are able to rent or buy completely onlin
 [3778](https://www.3778.care/) <br>
 ---
 Healthtech specialized in corporate health care. It offers many services for companies looking for health care solutions for their employees and also dedicated solutions for hospitals. <br><br>
-**Software Engineer** _(Dec 2021 - Present)_ <br>
+**Software Engineer** _(Apr 2020 - May 2021)_ <br>
   - Development of an egress system for the whole company. This system enabled all ETL and automated scans of 3778 customers' databases to pass through a single output, making it easier to configure ingress on customers' networks;
   - Development of an SSO system for the whole company using OAuth2-Proxy, Envoy filters, and Istio configurations;
   - Development and maintenance of a service mesh inside 3778 clusters using Istio 1.6;
@@ -55,7 +55,7 @@ Healthtech specialized in corporate health care. It offers many services for com
   - Support to software engineering, data engineering, and data science teams. <br>
   - **_Technologies used:_** Shell Scripting · Istio · Envoy · SSO · Go (Programming Language) · Google Cloud Platform (GCP) · Terraform · Kubernetes <br>
 
-**Software Engineer** _(Dec 2021 - Present)_ <br>
+**Software Engineer** _(Sep 2019 - Apr 2020)_ <br>
   - Development of a system to help physicians, hospitals, and patients to enable preventive healthcare. It was a microservice-oriented architecture written in Go and a lightweight UI based on web components. <br>
   - **_Technologies used:_** Go (Programming Language) · JavaScript
 <br><br>
@@ -64,7 +64,7 @@ Healthtech specialized in corporate health care. It offers many services for com
 ---
 AI and Data science outsourcing company. Usualy takes projects from companies in different stages of maturity and use data science models to assist companies to deliver more value with their products deliver more value. <br><br>
 
-**Data Engineer** _(... - ...)_ <br>
+**Data Engineer** _(Jun 2019 - Sep 2019)_ <br>
   - Design and development of a recommendation system, creation of an ETL pipeline using the internet tracking information from users to return scores and recommend paywalls;
   - Development of an ETL system that ingested data from different sources, such as internal and external APIs and Google Cloud storage buckets. This data was used to return price recommendations to customers;
   - DataOps support for data analysis and machine learning engineering teams. <br>
@@ -75,7 +75,7 @@ AI and Data science outsourcing company. Usualy takes projects from companies in
 ---
 Software outsourcing company based in Brazil with focus on inovation projects. <br><br>
 
-**Software Engineer** _(...-...)_ <br>
+**Software Engineer** _(Aug 2016 - Jun 2019)_ <br>
   - Development of a back office application to help after-sales and support professionals provide a better user experience and get insights from client usage and needs. This product was developed using React and Django; to gather the needed information this application had to interact with many other services;
   - Development of a test tool to accelerate the verification phase of DO-178B (development standard used to build and certify avionic systems and applications); it was used to ingest terabytes of data and produce reports on electronic tests. This tool made some of these tests take seconds instead of days.
   - Formal verification and validation of a communication protocol used for pre-competitive avionic embedded systems, according to DO-178B avionic software development standards;
