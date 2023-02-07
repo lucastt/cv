@@ -34,7 +34,7 @@ Online retail platform that sells fashion and beauty products. <br><br>
 [Quinto Andar](https://www.quintoandar.com.br/) <br>
 ---
 Online real estate platform where users are able to rent or buy completely online, the contract is also signed online and the company provide safety means and compensation in case of schemes. <br><br>
-**Site Reliability Engineer** @ [Quinto Andar](https://www.quintoandar.com.br/) _(May 2021 - Oct 2021)_ <br>
+**Site Reliability Engineer** _(May 2021 - Oct 2021)_ <br>
   - Development of a distributed and decoupled solution for authorization and authentication to all back office applications of the company, using Open Policy Agent (OPA), Kubernetes instrumentation, and Kong proxy;
   - Development of different fluent bit log pipelines to keep access logs of all APIs of the company, also the development of a system to keep a record of old logs for the data access auditing process;
   - Maintenance of a service mesh inside QuintoAndar’s six clusters using Istio 1.4;
