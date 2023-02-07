@@ -1,7 +1,5 @@
 # Lucas Thiesen
 
-A Software engineer based in Berlin.
-
 ## Summary
 
 - I’m proficient in Go, JavaScript/Node.js  and Python, but also have experience using C and C++.
