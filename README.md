@@ -9,7 +9,7 @@
 - I’m used to work with agile methodologies like Scrum, Kanban and XP.
 - I have experience leading and mentoring people and great communication skills.
 
-## Work Experience
+## Engineering Experience
 
 [Zalando](https://zalando.de/) <br>
 ---
@@ -88,15 +88,15 @@ Software outsourcing company based in Brazil with focus on inovation projects. <
 of its junior engineers;
 - **Scrum master** _(2019)_: I was responsible for the agile development process of some teams, using Scrum and Kanban
 at CERTI Foundation;
-- **Protocol developer** _(2019)_: I developed MQTT and PPP implementations in college, which gave me a background on network protocol design. <br>
+- **Protocol developer** _(2019)_: I developed MQTT and PPP implementations in college, which gave me a background on network protocol design. <br><br>
 
 ## Languages
 
-**Portuguese**: Native <br>
-**English**: Fluent <br>
-**Spanish**: Basic understanding <br>
-**Italian**: Basic understanding <br>
-**German**: A1 <br>
+🇧🇷 **Portuguese**: Native <br>
+🇺🇸 **English**: Fluent <br>
+🇪🇸 **Spanish**: Basic understanding <br>
+🇮🇹 **Italian**: Basic understanding <br>
+🇩🇪 **German**: A1 <br>
 
 ## Education
 
