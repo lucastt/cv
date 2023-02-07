@@ -16,7 +16,7 @@ A Software engineer based in Berlin.
 [Zalando](https://zalando.de/) <br>
 ---
 Online retail platform that sells fashion and beauty products. <br><br>
-**Site Reliability Engineer** @ [Zalando](https://zalando.de/) _(Dec 2021 - Present)_ <br>
+**Site Reliability Engineer** _(Dec 2021 - Present)_ <br>
   - Improved rate limiting and bot traffic protection by:
     * Designing a strategy to improve rate limits in cart and checkout flows.
     * Developing several scripts to fetch data and make statistical analysis of rate limits.
