@@ -16,7 +16,6 @@
 [Zalando](https://zalando.de/) <br>
 ---
 Online retail platform that sells fashion and beauty products. <br><br>
-
 **Software Engineer** _(Dec 2022 - Present)_ <br>
 There are a few core platform teams in Zalando that develop the underlying infrastructure for all Zalando products. I work in one of this teams, Gateway and Proxy. The gateway and proxy team owns all the edge logic in Zalando, from edge protection to routing and networking at Kubernetes level for all 200+ kubernetes clusters. My contributions within the team are: <br>
 
