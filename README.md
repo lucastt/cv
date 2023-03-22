@@ -16,7 +16,17 @@
 [Zalando](https://zalando.de/) <br>
 ---
 Online retail platform that sells fashion and beauty products. <br><br>
-**Site Reliability Engineer** _(Dec 2021 - Present)_ <br>
+
+**Software Engineer** _(Dec 2022 - Present)_ <br>
+There are a few core platform teams in Zalando that develop the underlying infrastructure for all Zalando products. I work in one of this teams, Gateway and Proxy. The gateway and proxy team owns all the edge logic in Zalando, from edge protection to routing and networking at Kubernetes level for all 200+ kubernetes clusters. My contributions within the team are: <br>
+
+- Maintenance and development of a open source reverse proxy called skipper developed in Zalando and written in Go.
+- Refactoring and improvements of e2e tests of kubernetes ingress controller for clusters hosted in AWS developed in zalando and written in Go.
+- Implementation of external hostname based metrics collector to a kubernetes metric adapter, also developed within Zalando and written in Go, this component is responsible to provide metrics to horizontal pod autoscaler in kubernetes, enabling teams to autoscale based on more inteligent and complex metrics.
+- Support to teams rolling out Fabric gateway, which is an API gateway built on top of skipper. This API gateway provide to development teams the ability to easily configure all routing, AuthN/AuthX, rate limiting and traffic shaping based on OpenAPI yamls and simple configuration of a Kubernetes CRD. Fabric Gateway was developed in Zalando and written in Go. <br>
+- **_Technologies used:_** Go · Kubernetes · AWS <br>
+
+**Site Reliability Engineer** _(Dec 2021 - Dec 2022)_ <br>
   - Improved rate limiting and bot traffic protection by:
     * Designing a strategy to improve rate limits in cart and checkout flows.
     * Developing several scripts to fetch data and make statistical analysis of rate limits.
@@ -28,7 +38,7 @@ Online retail platform that sells fashion and beauty products. <br><br>
   - Development of a risk register to track possible and recurrent issues within the whole application ecosystem. This risk register enabled Engineering teams to report risks to high level management (heads and directors) creating cross team colaboration on reliability issues which reduces toil, share knowledge across teams and improves the department ability to act on post mortem action items.
   - Improvement of tracing and adaptive paging solution usage on web experience and checkout services. Reducing the number of false positives for incidents in the department by 13%.
   - Participated as 24x7 on call responder rotation with the web experience team within the checkout department. <br>
-  - **_Technologies used:_** Skipper · Open Telemetry · Shell script · Python · Kubernetes
+  - **_Technologies used:_** Go · Open Telemetry · Shell script · Python · Kubernetes
 <br><br>
 
 [Quinto Andar](https://www.quintoandar.com.br/) <br>
@@ -39,7 +49,7 @@ Online real estate platform where users are able to rent or buy completely onlin
   - Development of different fluent bit log pipelines to keep access logs of all APIs of the company, also the development of a system to keep a record of old logs for the data access auditing process;
   - Maintenance of a service mesh inside QuintoAndar’s six clusters using Istio 1.4;
   - Support software engineering teams on DevOps practices and design decisions. <br>
-  - **_Technologies used:_** Shell Scripting · Go (Programming Language) · Amazon Web Services (AWS) · Terraform · Kubernetes
+  - **_Technologies used:_** Shell Scripting · Go (Programming Language) · AWS · Terraform · Kubernetes
 <br><br>
 
 [3778](https://www.3778.care/) <br>
