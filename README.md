@@ -54,7 +54,7 @@ Online real estate platform where users are able to rent or buy completely onlin
 [3778](https://www.3778.care/) <br>
 ---
 Healthtech specialized in corporate health care. It offers many services for companies looking for health care solutions for their employees and also dedicated solutions for hospitals. <br><br>
-**Software Engineer** _(Apr 2020 - May 2021)_ <br>
+**Platform Engineer** _(Apr 2020 - May 2021)_ <br>
   - Development of an egress system for the whole company. This system enabled all ETL and automated scans of 3778 customers' databases to pass through a single output, making it easier to configure ingress on customers' networks;
   - Development of an SSO system for the whole company using OAuth2-Proxy, Envoy filters, and Istio configurations;
   - Development and maintenance of a service mesh inside 3778 clusters using Istio 1.6;
