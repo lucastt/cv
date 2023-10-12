@@ -107,8 +107,6 @@ at CERTI Foundation;
 
 🇧🇷 **Portuguese**: Native <br>
 🇺🇸 **English**: Fluent <br>
-🇪🇸 **Spanish**: Basic understanding <br>
-🇮🇹 **Italian**: Basic understanding <br>
 🇩🇪 **German**: A1 <br>
 
 ## Education
