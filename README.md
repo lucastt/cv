@@ -106,13 +106,6 @@ of its junior engineers;
 at CERTI Foundation;
 - **Protocol developer** _(2019)_: I developed MQTT and PPP implementations in college, which gave me a background on network protocol design. <br><br>
 
-## Languages
----
-
-🇧🇷 **Portuguese**: Native <br>
-🇺🇸 **English**: Fluent <br>
-🇩🇪 **German**: A1 <br>
-
 ## Education
 ---
 
