@@ -3,20 +3,41 @@
 ## Summary
 ---
 
-- I’m proficient in Go, JavaScript/Node.js  and Python, but also have experience using C and C++.
-- I have experience with computer networks, distributed systems, Rest APIs and GraphQL APIs.
-- I’ve used SQL and NOSQL databases, but most of my experience is with PostgreSQL.
-- I use and develop components for Kubernetes infrastructure on a daily basis.
+- I’m proficient in Go, JavaScript/Node.js and Python, but also have experience using C and C++.
+- I have experience with computer networks, distributed systems, GRPC, Rest APIs and GraphQL APIs.
+- I’ve used several SQL and NOSQL databases, but most of my experience is with PostgreSQL and Redis.
+- I have great experience developing and maintaining custom resources for Kubernetes and core infrastructure components.
 - I’m used to work with agile methodologies like Scrum, Kanban and XP.
 - I have experience leading and mentoring people and great communication skills.
 
 ## Engineering Experience
 ---
 
+[Delivery hero](https://www.deliveryhero.com/) <br>
+---
+Food and groceries delivery platform present in 70+ countries. <br><br>
+**Senior Software Engineer** _(May 2024 - Present)_ <br>
+My responsibilities as a software engineer were:
+  - Development and maintenance of different ranking systems.
+  - Infrastructure provisioning using terraform and internal tools.
+  - Deployment and monitoring the health of the systems.
+  - Incident response.
+Some of my achievements during my tenure were:
+  - Implementation of A/B testing framework and A/B testing tracking.
+  - Implementation of model monitoring solution so the team could measure ML model accuracy.
+  - Versioning of machine learning model variables to enable the team to run multiple model versions in parallel.
+  - Infrastructure migration of several AdTech components to support new kubernetes version and the new Global development platform implemented in house.
+  - Latency improvements in AdRanker of around 50% by tuning requests and limits parameters to avoid CPU throttling.
+  - Development of a service responsible to host several different rankers to the different vendor categories taking into account, product popularity, user preferences and promotions.
+  - Definition of a department wide pagination strategy that deals with the blending of several rankers each with its own pagination structure.
+  - Design of a feature cache where we pre-proccess and store information so that machine learning models can consume it with very low latency to rank products for the product catalog.
+  - **_Technologies used:_** Go · Redis · Open Telemetry · GRPC · Grafana · Kubernetes · Terraform · Google Cloud Platform (GCP)
+<br><br>
+
 [Zalando](https://zalando.de/) <br>
 ---
 Online retail platform that sells fashion and beauty products. <br><br>
-**Software Engineer** _(Dec 2022 - Present)_ <br>
+**Software Engineer** _(Dec 2022 - Apr 2024)_ <br>
 There are a few core platform teams in Zalando that develop the underlying infrastructure for all Zalando products. I work in one of this teams, Gateway and Proxy. The gateway and proxy team owns all the edge logic in Zalando, from edge protection to routing and networking at Kubernetes level for all 200+ kubernetes clusters. My contributions within the team are: <br>
 
 - Maintenance and development of a open source reverse proxy called skipper developed in Zalando and written in Go.
@@ -48,7 +69,7 @@ Online real estate platform where users are able to rent or buy completely onlin
   - Development of different fluent bit log pipelines to keep access logs of all APIs of the company, also the development of a system to keep a record of old logs for the data access auditing process;
   - Maintenance of a service mesh inside QuintoAndar’s six clusters using Istio 1.4;
   - Support software engineering teams on DevOps practices and design decisions. <br>
-  - **_Technologies used:_** Shell Scripting · Go (Programming Language) · AWS · Terraform · Kubernetes
+  - **_Technologies used:_** Shell Scripting · Go · AWS · Terraform · Kubernetes
 <br><br>
 
 [3778](https://www.3778.care/) <br>
@@ -62,22 +83,11 @@ Healthtech specialized in corporate health care. It offers many services for com
   - Development of Terraform modules to automate 3778 infrastructure in GCP and AWS;
   - Support development teams on system design and architecture;
   - Support to software engineering, data engineering, and data science teams. <br>
-  - **_Technologies used:_** Shell Scripting · Istio · Envoy · SSO · Go (Programming Language) · Google Cloud Platform (GCP) · Terraform · Kubernetes <br>
+  - **_Technologies used:_** Shell Scripting · Istio · Envoy · SSO · Go · Google Cloud Platform (GCP) · Terraform · Kubernetes <br>
 
 **Software Engineer** _(Sep 2019 - Apr 2020)_ <br>
   - Development of a system to help physicians, hospitals, and patients to enable preventive healthcare. It was a microservice-oriented architecture written in Go and a lightweight UI based on web components. <br>
-  - **_Technologies used:_** Go (Programming Language) · JavaScript
-<br><br>
-
-[Aquarela analytics](https://www.aquare.la/en/) <br>
----
-AI and Data science outsourcing company. Usualy takes projects from companies in different stages of maturity and use data science models to assist companies to deliver more value with their products deliver more value. <br><br>
-
-**Data Engineer** _(Jun 2019 - Sep 2019)_ <br>
-  - Design and development of a recommendation system, creation of an ETL pipeline using the internet tracking information from users to return scores and recommend paywalls;
-  - Development of an ETL system that ingested data from different sources, such as internal and external APIs and Google Cloud storage buckets. This data was used to return price recommendations to customers;
-  - DataOps support for data analysis and machine learning engineering teams. <br>
-  - **_Technologies used:_** Python
+  - **_Technologies used:_** Go · JavaScript · PostgreSQL
 <br><br>
 
 [CERTI](https://certi.org.br/en/index) <br>
