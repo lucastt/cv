@@ -17,12 +17,6 @@
 ---
 Food and groceries delivery platform present in 70+ countries. <br><br>
 **Senior Software Engineer** _(May 2024 - Present)_ <br>
-My responsibilities as a software engineer were:
-  - Development and maintenance of different ranking systems.
-  - Infrastructure provisioning using terraform and internal tools.
-  - Deployment and monitoring the health of the systems.
-  - Incident response. <br>
-Some of my achievements during my tenure were:
   - Implementation of A/B testing framework and A/B testing tracking.
   - Implementation of model monitoring solution so the team could measure ML model accuracy.
   - Versioning of machine learning model variables to enable the team to run multiple model versions in parallel.
