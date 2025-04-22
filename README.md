@@ -21,7 +21,7 @@ My responsibilities as a software engineer were:
   - Development and maintenance of different ranking systems.
   - Infrastructure provisioning using terraform and internal tools.
   - Deployment and monitoring the health of the systems.
-  - Incident response.
+  - Incident response. <br>
 Some of my achievements during my tenure were:
   - Implementation of A/B testing framework and A/B testing tracking.
   - Implementation of model monitoring solution so the team could measure ML model accuracy.
