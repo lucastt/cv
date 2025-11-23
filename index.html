@@ -11,14 +11,14 @@
   </head>
   <body>
     <div class="wrapper">
-      <h1 id="lucas-thiesen">Lucas Thiesen</h1>
+      <h1 id="lucas-thiesen"><a href="https://lucastt.github.io/cv/">Lucas Thiesen</a></h1>
       <h2 id="summary">Summary</h2>
       <hr>
       <ul>
         <li>I’m proficient in Go, JavaScript/Node.js and Python, but also have experience using C and C++.</li>
         <li>I have experience with computer networks, distributed systems, GRPC, Rest APIs and GraphQL APIs.</li>
-        <li>I’ve used several SQL and NOSQL databases, but most of my experience is with PostgreSQL and Redis.</li>
-        <li>I have great experience developing and maintaining custom resources for Kubernetes and core infrastructure components.</li>
+        <li>I’ve used several SQL and NOSQL databases, but most of my experience is with PostgreSQL, Redis and DynamoDB.</li>
+        <li>I have experience developing and maintaining custom resources for Kubernetes and core infrastructure components.</li>
         <li>I’m used to work with agile methodologies like Scrum, Kanban and XP.</li>
         <li>I have experience leading and mentoring people and great communication skills.</li>
       </ul>
@@ -27,16 +27,29 @@
 
       <h2 id="delivery-hero"><a href="https://www.deliveryhero.com/">Delivery hero</a> <br></h2>
       <p>Food and groceries delivery platform present in 70+ countries. <br><br>
-      <strong>Senior Software Engineer</strong> <em>(May 2024 - Present)</em> <br></p>
+      <strong>Senior Software Engineer (Logistics - Deliveries tribe) </strong> <em>(Jul 2025 - Present)</em> <br></p>
+      Deliveries tribe is one of the most core tribes in Delivery Hero. This tribe is responsible for the actual delivery of the the producs sold in our platform, which is the main part of Delivery Hero business. This is also one of the oldest teams in the company and is a great oportunity to work with legacy code and find ways to improve our design.
+      <ul>
+        <li>Desined the modernisation of the delivery flow architecture that was increasing the risks of incidents and incurring loss of orders to several markets.</li>
+        <li>Improved alerts and observability, mainly for the newer features, which improved MTTR and increased confidence on the rollout of new features.</li>
+        <li>Worked on Postmortem long and medium term action items since day 1.</li>
+        <li>Performed chaos testing of tier 2, 3 and 4 services in production, in preparation for new high-traffic markets.</li>
+        <li>Implemented automated phone call agents, so the courier would not have to talk directly to the customer in a case of a problem during a delivery, eliminating language barriers and protecting the customer&#39;s privacy.</li>
+        <li>Designed and implemented a system to geolocate mall&#39;s entrances. This feature would use geolocation data infered by an ML model to indicate which mall entrance the courier should take in order to get to the restaurant in the most optimal way, reducing delivery time and costs for the company.</li>
+        <li>Designed a new form of payment integration via QR codes, so the user could pay for the delivery on their door simply scanning a QR code in the courier app screen.</li>
+        <li><strong><em>Technologies used:</em></strong> Go · Redis · Open Telemetry · Grafana · Kubernetes · Terraform · AWS DynamoDB · AWS SQS/SNS
+        <br><br></li>
+      </ul>
+      <strong>Senior Software Engineer (AdTech tribe) </strong> <em>(May 2024 - Jul 2025)</em> <br></p>
+      There are two main AdTech teams in Delivery hero, one for restaurant and other to the new verticals (groceries, Farmacy etc). I worked within the new verticals until these two were merged, this gave me great oportunity to set the way of how we implemented, design and setup infrastructure of our ads platform from a very initial stage.
       <ul>
         <li>Implemented an A/B testing framework and A/B testing tracking.</li>
-        <li>Implemented a model monitoring solution so the team could measure ML model accuracy.</li>
+        <li>Implemented a ML model monitoring solution so the team could measure ML model accuracy.</li>
         <li>Implemented versioning of machine learning model variables to enable the team to run multiple model versions in parallel.</li>
         <li>Migrated the infrastructure of several AdTech components to support new kubernetes version and the new global development platform implemented in house.</li>
         <li>Improved the latency of AdRanker&#39;s relevance component in 50% by tuning requests and limits parameters to avoid CPU throttling.</li>
         <li>Developed a service responsible to host several different rankers to the different vendor categories taking into account, product popularity, user preferences and promotions.</li>
-        <li>Wrote an RFC defining a department wide pagination strategy that deals with the blending of several rankers each with its own pagination structure.</li>
-        <li>Designed a feature cache where we pre-proccess and store information so that machine learning models can consume it with very low latency to rank products for the product catalog.</li>
+        <li>Designed a feature cache where we pre-proccess and store information so that machine learning models can consume it with very low latency to rank products for the product catalog in real time.</li>
         <li><strong><em>Technologies used:</em></strong> Go · Redis · Open Telemetry · GRPC · Grafana · Kubernetes · Terraform · Google Cloud Platform (GCP)
         <br><br></li>
       </ul>
