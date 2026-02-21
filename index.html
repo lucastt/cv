@@ -15,7 +15,7 @@
 
       <h2 id="summary">Professional Summary</h2>
       <hr>
-      <p>Senior Software Engineer with 9+ years of experience spanning product engineering, platform infrastructure, and site reliability — operating at scale at companies like Zalando and Delivery Hero. I have a strong foundation in distributed systems and backend engineering, and a track record of owning high-impact work across the full stack: from ML-powered ranking systems and real-time delivery infrastructure to edge networking, Kubernetes platform tooling, and reliability programmes across large engineering organisations.</p>
+      <p>Senior Software Engineer with 10 years of experience spanning product engineering, platform infrastructure, and site reliability — operating at scale at companies like Zalando and Delivery Hero. I have a strong foundation in distributed systems and backend engineering, and a track record of owning high-impact work across the full stack: from ML-powered ranking systems and real-time delivery infrastructure to edge networking, Kubernetes platform tooling, and reliability programmes across large engineering organisations.</p>
       <p>I'm at my best working on complex, ambiguous problems at the intersection of software engineering and infrastructure, where system design decisions have direct product and business consequences.</p>
 
       <h2 id="skills">Skills</h2>
@@ -28,22 +28,21 @@
 
       <h2 id="engineering-experience">Engineering Experience</h2>
       <hr>
-
       <h2 id="delivery-hero"><a href="https://www.deliveryhero.com/">Delivery Hero</a></h2>
       <p>Global food and grocery delivery platform operating across 70+ countries, processing millions of orders daily.</p>
-
+      
       <p><strong>Senior Software Engineer</strong> — <em>Logistics, Deliveries Tribe</em> <em>(Jul 2025 - Present)</em></p>
       <p>The Deliveries tribe owns the systems coordinating real-time delivery at global scale — a domain combining high traffic, strict reliability requirements, and a mix of legacy and modern systems serving millions of orders worldwide.</p>
       <ul>
-        <li>Modernised core delivery flow architecture, resolving reliability issues that had been causing order losses across multiple markets.</li>
-        <li>Designed and built a system to identify mall entrances from geospatial data, improving courier routing accuracy and reducing delivery times and operational costs at scale.</li>
-        <li>Built automated phone-call agents enabling couriers to resolve delivery issues without direct customer interaction, eliminating language barriers and improving privacy — removing a significant source of operational friction across international markets.</li>
-        <li>Implemented a QR-code payment flow allowing customers to pay at the door via the courier app, expanding payment flexibility at the last mile.</li>
-        <li>Ran chaos experiments across tier-2, tier-3, and tier-4 production services ahead of high-traffic market launches, proactively identifying and addressing failure modes before they reached customers.</li>
-        <li>Improved alerting and observability across delivery services, reducing MTTR and increasing deployment predictability; drove delivery of medium- and long-term post-mortem action items to strengthen overall system resilience.</li>
+        <li>Took ownership of core delivery flow architecture, identifying and resolving deep-rooted reliability issues that had been causing order losses across multiple markets.</li>
+        <li>Designed and shipped a geospatial system to detect mall entrances, directly improving courier routing accuracy and cutting delivery times and operational costs at scale.</li>
+        <li>Conceived and built automated phone-call agents that let couriers resolve delivery issues independently, eliminating language barriers and removing a persistent source of operational friction across international markets.</li>
+        <li>Delivered a QR-code payment flow enabling customers to pay at the door via the courier app, expanding last-mile payment flexibility across markets.</li>
+        <li>Proactively ran chaos experiments across tier-2, tier-3, and tier-4 production services ahead of high-traffic market launches, surfacing and eliminating failure modes before they reached customers.</li>
+        <li>Drove observability and alerting improvements across delivery services to reduce MTTR and increase deployment confidence; took end-to-end ownership of medium- and long-term post-mortem action items to harden system resilience.</li>
         <li><strong><em>Technologies:</em></strong> Go · Kubernetes · AWS · DynamoDB · SQS/SNS · Redis · Terraform · OpenTelemetry · Grafana</li>
       </ul>
-
+      
       <p><strong>Senior Software Engineer</strong> — <em>AdTech, New Verticals Tribe</em> <em>(May 2024 - Jul 2025)</em></p>
       <p>Joined the new-verticals AdTech team at an early stage, contributing to the design, implementation, and infrastructure of an ads platform for groceries and pharmacy verticals — work that shaped the foundation before both AdTech teams were consolidated.</p>
       <ul>
@@ -58,17 +57,17 @@
 
       <h2 id="zalando"><a href="https://zalando.de/">Zalando</a></h2>
       <p>Europe's leading online fashion and beauty platform, operating at massive scale across 200+ Kubernetes clusters.</p>
-
+      
       <p><strong>Site Reliability Engineer</strong> <em>(Dec 2021 - Apr 2024)</em></p>
       <p>Worked across Zalando's core platform as part of the <em>Embedded SRE</em> programme — where SREs join product tribes to uplift reliability practices across entire engineering ecosystems — and later within the <em>Gateway & Proxy</em> team, owning edge infrastructure and platform tooling across Zalando's entire engineering organisation.</p>
       <ul>
-        <li>Led a rate limiting and bot protection initiative for cart and checkout flows: designed the mitigation strategy, built statistical analysis tooling, authored documentation and training material, and reviewed a new leaky bucket rate limiting middleware — collectively reducing incoming bot traffic by over 50%, saving significant infrastructure costs and preventing load-induced outages.</li>
-        <li>Built an internal risk register tool enabling engineering teams to surface reliability risks to senior leadership, driving cross-team collaboration on post-mortem action items and reducing toil across the department.</li>
-        <li>Reduced on-call toil for web experience and checkout teams by refining distributed tracing and adaptive paging configurations, improving alert signal quality and reducing false-positive incident pages.</li>
-        <li>Maintained and contributed to <a href="https://github.com/zalando/skipper">Skipper</a>, Zalando's open source reverse proxy written in Go, and supported teams rolling out Fabric Gateway — an API gateway built on top of Skipper enabling development teams to configure routing, AuthN/AuthZ, rate limiting, and traffic shaping via OpenAPI specs and Kubernetes CRDs.</li>
-        <li>Implemented an external hostname-based metrics collector for a Kubernetes metric adapter, enabling teams to drive Horizontal Pod Autoscaler with richer, more expressive metrics beyond standard CPU/memory thresholds.</li>
-        <li>Refactored and improved the e2e test suite for Zalando's Kubernetes ingress controller, improving reliability and coverage of a component critical to all cluster traffic routing.</li>
-        <li>Moderated post-incident reviews and participated in 24/7 on-call rotations, contributing to playbook improvements and cross-team knowledge sharing.</li>
+        <li>Identified, designed, and drove a company-wide rate limiting and bot protection initiative for cart and checkout flows: built the mitigation strategy from scratch, developed statistical analysis tooling, authored documentation and training material, and reviewed a new leaky bucket rate limiting middleware — collectively cutting incoming bot traffic by over 50%, saving significant infrastructure costs and preventing load-induced outages.</li>
+        <li>Conceived and shipped an internal risk register tool that gave engineering teams a direct line to surface reliability risks to senior leadership, creating cross-team accountability on post-mortem action items and meaningfully reducing toil across the department.</li>
+        <li>Took ownership of distributed tracing and adaptive paging configurations for web experience and checkout teams, sharpening alert signal quality and eliminating a chronic source of false-positive incident pages.</li>
+        <li>Contributed to <a href="https://github.com/zalando/skipper">Skipper</a>, Zalando's open source reverse proxy in Go, and took an active role in rolling out Fabric Gateway — an API gateway enabling teams to configure routing, AuthN/AuthZ, rate limiting, and traffic shaping through OpenAPI specs and Kubernetes CRDs.</li>
+        <li>Extended a Kubernetes metric adapter with external hostname-based metrics collection, unlocking richer Horizontal Pod Autoscaler signals beyond standard CPU/memory thresholds and giving teams more expressive autoscaling primitives.</li>
+        <li>Overhauled the e2e test suite for Zalando's Kubernetes ingress controller, significantly improving reliability and coverage of a component sitting in the critical path of all cluster traffic.</li>
+        <li>Facilitated post-incident reviews and served in 24/7 on-call rotations, using each incident as an opportunity to strengthen playbooks and drive cross-team learning.</li>
         <li><strong><em>Technologies:</em></strong> Go · Kubernetes · AWS · OpenTelemetry · Python · Shell Scripting</li>
       </ul>
 
