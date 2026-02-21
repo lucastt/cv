@@ -12,142 +12,96 @@
   <body>
     <div class="wrapper">
       <h1 id="lucas-thiesen"><a href="https://lucastt.github.io/cv/">Lucas Thiesen</a></h1>
+
       <h2 id="summary">Professional Summary</h2>
       <hr>
-      I have professional experience with:
-      <ul>
-        <li>Go, JavaScript/Node.js, Python, C, and C++</li>
-        <li>Computer networks, distributed systems, gRPC, REST, and GraphQL APIs</li>
-        <li>SQL and NoSQL databases, including PostgreSQL, Redis, and DynamoDB</li>
-        <li>Developing and maintaining Kubernetes custom resources and infrastructure components</li>
-        <li>Leading and mentoring engineers and collaborating across teams</li>
-      </ul>
+      <p>Senior Software Engineer with 9+ years of experience spanning product engineering, platform infrastructure, and site reliability — operating at scale at companies like Zalando and Delivery Hero. I have a strong foundation in distributed systems and backend engineering, and a track record of owning high-impact work across the full stack: from ML-powered ranking systems and real-time delivery infrastructure to edge networking, Kubernetes platform tooling, and reliability programmes across large engineering organisations.</p>
+      <p>I'm at my best working on complex, ambiguous problems at the intersection of software engineering and infrastructure, where system design decisions have direct product and business consequences.</p>
+
+      <h2 id="skills">Skills</h2>
+      <hr>
+      <p><strong>Languages:</strong> Go · Python · JavaScript · C · C++</p>
+      <p><strong>Infrastructure & Platform:</strong> Kubernetes · Terraform · AWS · GCP · Istio · Envoy</p>
+      <p><strong>Observability:</strong> OpenTelemetry · Grafana · Distributed Tracing</p>
+      <p><strong>Data & Messaging:</strong> PostgreSQL · Redis · DynamoDB · SQS/SNS</p>
+      <p><strong>Protocols & APIs:</strong> gRPC · REST · GraphQL</p>
+
       <h2 id="engineering-experience">Engineering Experience</h2>
       <hr>
-      <h2 id="delivery-hero"><a href="https://www.deliveryhero.com/">Delivery hero</a> <br></h2>
-      <p>Food and grocery delivery platform operating in 70+ countries. <br><br>
-      <strong>Senior Software Engineer (Logistics - Deliveries tribe) </strong> <em>(Jul 2025 - Present)</em> <br></p>
-      The Deliveries tribe owns the systems that coordinate real-time delivery for millions of orders worldwide. It combines legacy systems, high traffic, and strict reliability needs.<br>
-      Some of the work I’ve done:
+
+      <h2 id="delivery-hero"><a href="https://www.deliveryhero.com/">Delivery Hero</a></h2>
+      <p>Global food and grocery delivery platform operating across 70+ countries, processing millions of orders daily.</p>
+
+      <p><strong>Senior Software Engineer</strong> — <em>Logistics, Deliveries Tribe</em> <em>(Jul 2025 - Present)</em></p>
+      <p>The Deliveries tribe owns the systems coordinating real-time delivery at global scale — a domain combining high traffic, strict reliability requirements, and a mix of legacy and modern systems serving millions of orders worldwide.</p>
       <ul>
-        <li>Modernised the delivery flow architecture, fixing reliability issues that previously caused order losses in several markets.</li>
-        <li>Improved alerting and observability, which reduced MTTR and made deployments more predictable.</li>
-        <li>Delivered medium- and long-term postmortem action items to strengthen system resilience.</li>
-        <li>Ran chaos tests on tier-2, tier-3, and tier-4 services in production in preparation for high-traffic market launches.</li>
-        <li>Built automated phone-call agents that let couriers handle delivery issues without speaking directly to customers, removing language barriers and protecting privacy.</li>
-        <li>Designed and built a system to identify mall entrances, improving courier routing and reducing delivery time and operational costs.</li>
-        <li>Implemented a QR-code payment flow so customers can pay at the door by scanning a code in the courier app.</li>
-      </ul>
-        <li><strong><em>Technologies used:</em></strong> Go · Redis · Open Telemetry · Grafana · Kubernetes · Terraform · AWS DynamoDB · AWS SQS/SNS
-        <br><br></li>
-      </ul>
-      <strong>Senior Software Engineer (AdTech tribe) </strong> <em>(May 2024 - Jul 2025)</em> <br></p>
-      Delivery Hero had two AdTech teams: one focused on restaurants and one focused on new verticals such as groceries and pharmacy. I worked in the new-verticals team, which gave me the opportunity to help shape the early design, implementation, and infrastructure of the ads platform before both teams were merged.<br>
-      Some of the work I’ve done:
-      <ul>
-        <li>Implemented an A/B testing framework and A/B testing tracking.</li>
-        <li>Implemented a ML model monitoring solution so the team could measure ML model accuracy.</li>
-        <li>Implemented versioning of machine learning model variables to enable the team to run multiple model versions in parallel.</li>
-        <li>Migrated the infrastructure of several AdTech components to support new kubernetes version and the new global development platform implemented in house.</li>
-        <li>Improved the latency of AdRanker&#39;s relevance component in 50% by tuning requests and limits parameters to avoid CPU throttling.</li>
-        <li>Developed a service responsible to host several different rankers to the different vendor categories taking into account, product popularity, user preferences and promotions.</li>
-        <li>Designed a feature cache where we pre-proccess and store information so that machine learning models can consume it with very low latency to rank products for the product catalog in real time.</li>
-        <li><strong><em>Technologies used:</em></strong> Go · Redis · Open Telemetry · GRPC · Grafana · Kubernetes · Terraform · Google Cloud Platform (GCP)
-        <br><br></li>
+        <li>Modernised core delivery flow architecture, resolving reliability issues that had been causing order losses across multiple markets.</li>
+        <li>Designed and built a system to identify mall entrances from geospatial data, improving courier routing accuracy and reducing delivery times and operational costs at scale.</li>
+        <li>Built automated phone-call agents enabling couriers to resolve delivery issues without direct customer interaction, eliminating language barriers and improving privacy — removing a significant source of operational friction across international markets.</li>
+        <li>Implemented a QR-code payment flow allowing customers to pay at the door via the courier app, expanding payment flexibility at the last mile.</li>
+        <li>Ran chaos experiments across tier-2, tier-3, and tier-4 production services ahead of high-traffic market launches, proactively identifying and addressing failure modes before they reached customers.</li>
+        <li>Improved alerting and observability across delivery services, reducing MTTR and increasing deployment predictability; drove delivery of medium- and long-term post-mortem action items to strengthen overall system resilience.</li>
+        <li><strong><em>Technologies:</em></strong> Go · Kubernetes · AWS · DynamoDB · SQS/SNS · Redis · Terraform · OpenTelemetry · Grafana</li>
       </ul>
 
-      <h2 id="zalando"><a href="https://zalando.de/">Zalando</a> <br></h2>
-      <p>Online retail platform that sells fashion and beauty products. <br><br>
-      <strong>Software Engineer</strong> <em>(Dec 2022 - Apr 2024)</em> <br>
-      There are a few core platform teams in Zalando that develop the underlying infrastructure for all Zalando products. I work in one of this teams, Gateway and Proxy. The gateway and proxy team owns all the edge logic in Zalando, from edge protection to routing and networking at Kubernetes level for all 200+ kubernetes clusters. My contributions within the team were: <br></p>
+      <p><strong>Senior Software Engineer</strong> — <em>AdTech, New Verticals Tribe</em> <em>(May 2024 - Jul 2025)</em></p>
+      <p>Joined the new-verticals AdTech team at an early stage, contributing to the design, implementation, and infrastructure of an ads platform for groceries and pharmacy verticals — work that shaped the foundation before both AdTech teams were consolidated.</p>
       <ul>
-        <li>Maintained an open source reverse proxy called skipper developed in Zalando and written in Go.</li>
-        <li>Refactored and improved e2e tests of kubernetes ingress controller for clusters hosted in AWS developed in zalando and written in Go.</li>
-        <li>Implemented external hostname based metrics collector to a kubernetes metric adapter, also developed within Zalando and written in Go, this component is responsible to provide metrics to horizontal pod autoscaler in kubernetes, enabling teams to autoscale based on more inteligent and complex metrics.</li>
-        <li>Supported teams rolling out Fabric gateway, which is an API gateway built on top of skipper. This API gateway provide to development teams the ability to easily configure all routing, AuthN/AuthX, rate limiting and traffic shaping based on OpenAPI yamls and simple configuration of a Kubernetes CRD. Fabric Gateway was developed in Zalando and written in Go. <br></li>
-        <li><strong><em>Technologies used:</em></strong> Go · Kubernetes · AWS <br></li>
-      </ul>
-      <p><strong>Site Reliability Engineer</strong> <em>(Dec 2021 - Dec 2022)</em> <br></p>
-      <ul>
-        <li>Improved rate limiting and bot traffic protection by:<ul>
-        <li>Designing a strategy to improve rate limits in cart and checkout flows.</li>
-        <li>Developing several scripts to fetch data and make statistical analysis of rate limits.</li>
-        <li>Writing documentation and educational material to enable other engineers to make the same analysis and changes.</li>
-        <li>Training of other Engineers to use the tools I created to improve rate limits.</li>
-        <li>Design, review and vetting of a new rate limiting middleware using leaky bucket algorithm. <br></li>
-        <li>This initiatives reduced incomming bot traffic by more than 50% helping Zalando save many thousands of Euros worth of unecessary infrastructure and outages due to overload in cart and checkout flows.</li>
-        </ul>
-        </li>
-        <li>Moderated and participated Post incident analysis (Post mortens). This usualy involves many teams creating an oportunity of a lot of cross team work which improves the platform as a whole but also might improve playbooks and processes.</li>
-        <li>Developed a risk register internal tool to track possible and recurrent issues within the whole application ecosystem. This risk register enabled Engineering teams to report risks to high level management (heads and directors) creating cross team colaboration on reliability issues which reduces toil, share knowledge across teams and improves the department ability to act on post mortem action items.</li>
-        <li>Improved tracing and adaptive paging solution usage on web experience and checkout services. Reducing the number of false positives for incidents in the department by 13%.</li>
-        <li>Participated as 24x7 on call responder rotation with the web experience team within the checkout department. <br></li>
-        <li><strong><em>Technologies used:</em></strong> Go · Open Telemetry · Shell script · Python · Kubernetes
-        <br><br></li>
+        <li>Reduced AdRanker relevance component latency by 50% by tuning CPU request and limit parameters to eliminate throttling — a targeted intervention with immediate, measurable impact on the ads serving pipeline.</li>
+        <li>Designed and implemented a feature cache to pre-process and store ML model inputs, enabling real-time product catalog ranking with very low latency.</li>
+        <li>Developed a multi-category ranker service incorporating product popularity, user preferences, and promotions across different vendor categories.</li>
+        <li>Implemented ML model versioning to support parallel model versions in production, and built a model monitoring solution to continuously measure and track model accuracy.</li>
+        <li>Implemented an A/B testing framework with end-to-end tracking to support data-driven experimentation across the ads platform.</li>
+        <li>Migrated infrastructure for several AdTech components to support a new Kubernetes version and Delivery Hero's internal global development platform.</li>
+        <li><strong><em>Technologies:</em></strong> Go · Kubernetes · GCP · Redis · Terraform · gRPC · OpenTelemetry · Grafana</li>
       </ul>
 
-      <h2 id="quinto-andar"><a href="https://www.quintoandar.com.br/">Quinto Andar</a> <br></h2>
-      <p>Online real estate platform where users are able to rent or buy completely online, the contract is also signed online and the company provide safety means and compensation in case of schemes. <br><br>
-      <strong>Site Reliability Engineer</strong> <em>(May 2021 - Oct 2021)</em> <br></p>
+      <h2 id="zalando"><a href="https://zalando.de/">Zalando</a></h2>
+      <p>Europe's leading online fashion and beauty platform, operating at massive scale across 200+ Kubernetes clusters.</p>
+
+      <p><strong>Site Reliability Engineer</strong> <em>(Dec 2021 - Apr 2024)</em></p>
+      <p>Worked across Zalando's core platform as part of the <em>Embedded SRE</em> programme — where SREs join product tribes to uplift reliability practices across entire engineering ecosystems — and later within the <em>Gateway & Proxy</em> team, owning edge infrastructure and platform tooling across Zalando's entire engineering organisation.</p>
       <ul>
-        <li>Developed of a distributed and decoupled solution for authorization and authentication to all back office applications of the company, using Open Policy Agent (OPA), Kubernetes instrumentation, and Kong proxy.</li>
-        <li>Developed of different fluent bit log pipelines to keep access logs of all APIs of the company, also the development of a system to keep a record of old logs for the data access auditing process.</li>
-        <li>Maintained of a service mesh inside QuintoAndar’s six clusters using Istio 1.4.</li>
-        <li>Supported software engineering teams on DevOps practices and design decisions. <br></li>
-        <li><strong><em>Technologies used:</em></strong> Shell Scripting · Go · AWS · Terraform · Kubernetes
-        <br><br></li>
+        <li>Led a rate limiting and bot protection initiative for cart and checkout flows: designed the mitigation strategy, built statistical analysis tooling, authored documentation and training material, and reviewed a new leaky bucket rate limiting middleware — collectively reducing incoming bot traffic by over 50%, saving significant infrastructure costs and preventing load-induced outages.</li>
+        <li>Built an internal risk register tool enabling engineering teams to surface reliability risks to senior leadership, driving cross-team collaboration on post-mortem action items and reducing toil across the department.</li>
+        <li>Reduced on-call toil for web experience and checkout teams by refining distributed tracing and adaptive paging configurations, improving alert signal quality and reducing false-positive incident pages.</li>
+        <li>Maintained and contributed to <a href="https://github.com/zalando/skipper">Skipper</a>, Zalando's open source reverse proxy written in Go, and supported teams rolling out Fabric Gateway — an API gateway built on top of Skipper enabling development teams to configure routing, AuthN/AuthZ, rate limiting, and traffic shaping via OpenAPI specs and Kubernetes CRDs.</li>
+        <li>Implemented an external hostname-based metrics collector for a Kubernetes metric adapter, enabling teams to drive Horizontal Pod Autoscaler with richer, more expressive metrics beyond standard CPU/memory thresholds.</li>
+        <li>Refactored and improved the e2e test suite for Zalando's Kubernetes ingress controller, improving reliability and coverage of a component critical to all cluster traffic routing.</li>
+        <li>Moderated post-incident reviews and participated in 24/7 on-call rotations, contributing to playbook improvements and cross-team knowledge sharing.</li>
+        <li><strong><em>Technologies:</em></strong> Go · Kubernetes · AWS · OpenTelemetry · Python · Shell Scripting</li>
       </ul>
 
-      <h2 id="3778"><a href="https://www.3778.care/">3778</a> <br></h2>
-      <p>Healthtech specialized in corporate health care. It offers many services for companies looking for health care solutions for their employees and also dedicated solutions for hospitals. <br><br>
-      <strong>Platform Engineer</strong> <em>(Apr 2020 - May 2021)</em> <br></p>
+      <h2 id="quinto-andar"><a href="https://www.quintoandar.com.br/">Quinto Andar</a></h2>
+      <p>Brazil's leading online real estate platform, enabling end-to-end rental and purchase transactions fully digitally. <strong>Site Reliability Engineer</strong> <em>(May 2021 - Oct 2021)</em></p>
       <ul>
-        <li>Developed an egress system for the whole company. This system enabled all ETL and automated scans of 3778 customers&#39; databases to pass through a single output, making it easier to configure ingress on customers&#39; networks.</li>
-        <li>Developed an SSO system for the whole company using OAuth2-Proxy, Envoy filters, and Istio configurations.</li>
-        <li>Configured and maintained a service mesh inside 3778 clusters using Istio 1.6.</li>
-        <li>Supported and maintained an infrastructure with three Kubernetes clusters.</li>
-        <li>Developed Terraform modules to automate 3778 infrastructure in GCP and AWS.</li>
-        <li>Supported development teams on system design and architecture.<br></li>
-        <li><strong><em>Technologies used:</em></strong> Shell Scripting · Istio · Envoy · SSO · Go · Google Cloud Platform (GCP) · Terraform · Kubernetes <br></li>
-      </ul>
-      <p><strong>Software Engineer</strong> <em>(Sep 2019 - Apr 2020)</em> <br></p>
-      <ul>
-        <li>Developed a system to help physicians, hospitals, and patients to enable preventive healthcare. It was a microservice-oriented architecture written in Go and a lightweight UI based on web components. <br></li>
-        <li><strong><em>Technologies used:</em></strong> Go · JavaScript · PostgreSQL
-        <br><br></li>
+        <li>Designed and implemented a distributed, decoupled authorization and authentication layer for all back office applications, leveraging Open Policy Agent (OPA), Kubernetes instrumentation, and Kong proxy.</li>
+        <li>Built Fluent Bit log pipelines to capture access logs across all company APIs, alongside a long-term log retention system to support data access auditing and compliance requirements.</li>
+        <li><strong><em>Technologies:</em></strong> Go · Kubernetes · Terraform · AWS · Shell Scripting</li>
       </ul>
 
-      <h2 id="certi"><a href="https://certi.org.br/en/index">CERTI</a> <br></h2>
-      <p>Software outsourcing company based in Brazil with focus on inovation projects. <br><br></p>
-      <p><strong>Software Engineer</strong> <em>(Aug 2016 - Jun 2019)</em> <br></p>
+      <h2 id="3778"><a href="https://www.3778.care/">3778</a></h2>
+      <p>Healthtech specialized in corporate and hospital health care solutions.</p>
+      <p><strong>Platform Engineer</strong> <em>(Apr 2020 - May 2021)</em> · <strong>Software Engineer</strong> <em>(Sep 2019 - Apr 2020)</em></p>
       <ul>
-        <li>Developed a back office application to help after-sales and support professionals provide a better user experience and get insights from client usage and needs. This product was developed using React and Django; to gather the needed information this application had to interact with many other services.</li>
-        <li>Developed a test tool to accelerate the verification phase of DO-178B (development standard used to build and certify avionic systems and applications); it was used to ingest terabytes of data and produce reports on electronic tests. This tool made some of these tests take seconds instead of days.</li>
-        <li>Was responsible for the formal verification and validation of a communication protocol used for pre-competitive avionic embedded systems, according to DO-178B avionic software development standards.</li>
-        <li>Developed a web application for controlling, monitoring, optimization, and strategic analysis for smart grids.</li>
-        <li>Developed a desktop application for digital audio processing made for LG. The software is based on a digital processing library written in C/C++ created at CERTI and the graphical interface was made using Qt 4.0. <br></li>
-        <li><strong><em>Technologies used:</em></strong> C (Programming Language) · Redux.js · Redis · C++ · JavaScript · React.js · Node.js · PostgreSQL
-        <br><br></li>
+        <li>Founding member of the Platform team as the company scaled — built core infrastructure from scratch including an ETL egress system, OAuth2/Envoy-based SSO, and a service mesh with distributed tracing and service IAM.</li>
+        <li>Designed and built a microservice-based preventive healthcare platform serving physicians, hospitals, and patients, owning the full lifecycle from application development through deployment and infrastructure.</li>
+        <li><strong><em>Technologies:</em></strong> Go · Kubernetes · Istio · Envoy · Terraform · GCP · AWS · JavaScript · PostgreSQL</li>
       </ul>
 
-      <h2 id="aditional-experience">Aditional Experience</h2>
-      <hr>
+      <h2 id="certi"><a href="https://certi.org.br/en/index">CERTI</a></h2>
+      <p><strong>Software Engineer</strong> <em>(Aug 2016 - Jun 2019)</em> — Software outsourcing and R&D company focused on innovation projects across aerospace, energy, and consumer electronics.</p>
       <ul>
-        <li><strong>Mentor</strong> <em>(2021)</em>: At 3778 I’m responsible for the onboarding of all Platform’s new members and mentoring to some
-        of its junior engineers.</li>
-        <li><strong>Scrum master</strong> <em>(2019)</em>: I was responsible for the agile development process of some teams, using Scrum and Kanban
-        at CERTI Foundation.</li>
-        <li><strong>Protocol developer</strong> <em>(2019)</em>: I developed MQTT and PPP implementations in college, which gave me a background on network protocol design. <br><br></li>
+        <li>Worked on safety-critical avionic software under DO-178B — the international certification standard governing software in airborne systems — including formal verification of a communication protocol and building a test tool that reduced verification cycles from days to seconds.</li>
+        <li>Built client-facing applications across multiple industries: a React/Django back office tool, a web application for smart grid monitoring, and a desktop application for digital audio processing (LG).</li>
+        <li><strong><em>Technologies:</em></strong> C · C++ · Python · JavaScript · React.js · Node.js · Django · PostgreSQL · Redis</li>
       </ul>
 
       <h2 id="education">Education</h2>
       <hr>
-      <p><strong>Bachelor of Science</strong> in Telecommunication Engineering (unfinished)<br>
-      <a href="https://www.ifsc.edu.br/">IFSC</a> - Sao Jose, Santa Catarina, Brazil <em>(2014 - 2019)</em> <br></p>
-      <p><strong>Associate Degree of Technology</strong> in Telecommunications <br>
-      <a href="https://www.ifsc.edu.br/">IFSC</a> - Sao Jose, Santa Catarina, Brazil <em>(2010 - 2013)</em> <br></p>
+      <p><strong>Bachelor of Science</strong> in Telecommunication Engineering<br>
+      <a href="https://www.ifsc.edu.br/">IFSC</a> - Sao Jose, Santa Catarina, Brazil <em>(2014 - 2019)</em></p>
     </div>
     <script src="javascripts/scale.fix.js"></script>
   </body>
 </html>
-
